@@ -1,31 +1,27 @@
 {
-  "name": "next-auth-example",
+  "name": "nextjs-template-lp",
   "version": "0.0.0",
   "private": true,
-  "description": "An example project for NextAuth.js",
-  "repository": "https://github.com/nextauthjs/next-auth-example.git",
+  "description": "Next.js template for LP",
+  "repository": "https://github.com/quantum-box/nextjs-lp-template",
   "bugs": {
-    "url": "https://github.com/nextauthjs/next-auth/issues"
+    "url": "https://github.com/quantum-box.com/issues"
   },
-  "homepage": "http://next-auth-example.now.sh",
+  "homepage": "http://quantum-box.com",
   "main": "",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "generate": "yarn graphql-codegen",
-    "canvas-build": "apt-get install build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev && yarn add canvas && next build"
+    "start": "next start"
   },
-  "author": "Iain Collins <me@iaincollins.com>",
+  "author": "Takanori Fukuyama (takanori.fukuyama@gmail.com)",
   "contributors": [
-    "Balázs Orbán <info@balazsorban.com>",
-    "Nico Domino <yo@ndo.dev>"
+    "Takanori Fukuyama (takanori.fukuyama@gmail.com)"
   ],
   "license": "ISC",
   "dependencies": {
     "@chakra-ui/icons": "^1.0.15",
     "@hubspot/api-client": "^5.0.0",
-    "@next-auth/firebase-adapter": "^0.0.2-canary.207",
     "autoprefixer": "^10.3.4",
     "classnames": "^2.3.1",
     "cloudinary": "^1.27.0",
