@@ -1,0 +1,50 @@
+.footer {
+  width: 100%;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  @media screen and (min-width:715px){
+    height: 250px;
+  }
+  p{
+    color:rgb(172, 172, 172);
+    font-size: 19px;
+    @media screen and (max-width:715px) {
+      font-size: 18px;
+    }
+  }
+  .pageLinks{
+    @media screen and (max-width:715px) {
+      display: flex;
+      flex-direction: column;
+      margin-top: 15px;
+    }
+    a{
+      margin: 0 2vw;
+      @media screen and (max-width:715px) {
+        margin: 5px 0;
+      }
+    }
+    span{
+      color: teal;
+      font-size: 19px;
+      @media screen and (max-width:715px) {
+        font-size: 18px;
+      }
+    }
+  }
+  .snsLinks{
+    @media screen and (max-width:715px){
+      margin-top: 15px;
+    }
+    a{
+      margin: 0 15px;
+      @media screen and (max-width:715px) {
+        margin: 0 20px;
+      }
+    }
+  }
+}
